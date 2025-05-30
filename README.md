@@ -24,7 +24,7 @@
 ### 🚀 Highlight Projects
 | Name | Core Tech | What I Delivered |
 |------|-----------|------------------|
-| **Domain-Specific Chatbot** | LLaMA-3, LangChain, Pinecone | Finetuned & deployed a chatbot for financial analysts |
+| **Domain-Specific Chatbot** | LLaMA-3, LangChain, Pinecone | Finetuned & deployed a chatbot for Coding Tasks |
 | **Visual Q&A Assistant** | BLIP-2, PEFT, Streamlit | Trained a visual-LLM to answer questions about marketing creatives |
 | **Autonomous Support Agent** | GPT-4o, OpenAI Functions, Supabase | Built an agent that resolved **82 %** tickets without human hand-off |
 | **Legal-Docs RAG** | Haystack, FAISS, FastAPI | Indexed **1 M+** PDFs enabling instant statutory queries |
