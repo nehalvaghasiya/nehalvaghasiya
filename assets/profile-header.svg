@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">From language to working software</title>
+  <desc id="description">A dark blue banner with mint and violet accents connects retrieval, agents, and applications through a small node diagram.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#17243B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="64" y1="0" x2="1136" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CE8C5"/>
+      <stop offset="1" stop-color="#B6A4FF"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#B5C9E7" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+  <path d="M64 1H1136" stroke="url(#accent)" stroke-width="2"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="62" fill="#7CE8C5" font-size="14" font-weight="700" letter-spacing="3">NLP / LLM ENGINEERING</text>
+    <text x="60" y="133" fill="#F2F6FC" font-size="55" font-weight="700" letter-spacing="-1.8">From language</text>
+    <text x="60" y="197" fill="#F2F6FC" font-size="55" font-weight="700" letter-spacing="-1.8">to working software.</text>
+    <text x="64" y="260" fill="#B5C5DD" font-size="18">Knowledge. Tools. Interfaces people can use.</text>
+  </g>
+
+  <g stroke="#536580" stroke-width="2">
+    <path d="M788 103H822Q842 103 842 123V141Q842 161 862 161H884"/>
+    <path d="M788 219H822Q842 219 842 199V181Q842 161 862 161H884"/>
+    <path d="M924 161H981Q1001 161 1001 181V199Q1001 219 1021 219H1080"/>
+    <path d="M924 161H981Q1001 161 1001 141V123Q1001 103 1021 103H1080"/>
+  </g>
+
+  <g>
+    <rect x="740" y="79" width="48" height="48" rx="12" fill="#142E31" stroke="#7CE8C5"/>
+    <path d="M755 92H769L775 98V113H755V92Z" stroke="#7CE8C5" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M760 103H770M760 108H767" stroke="#7CE8C5" stroke-width="1.8" stroke-linecap="round"/>
+
+    <rect x="740" y="195" width="48" height="48" rx="12" fill="#142E31" stroke="#7CE8C5"/>
+    <path d="M754 209H774M754 219H774M754 229H774" stroke="#7CE8C5" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="760" cy="209" r="3" fill="#142E31" stroke="#7CE8C5" stroke-width="1.8"/>
+    <circle cx="769" cy="219" r="3" fill="#142E31" stroke="#7CE8C5" stroke-width="1.8"/>
+    <circle cx="763" cy="229" r="3" fill="#142E31" stroke="#7CE8C5" stroke-width="1.8"/>
+
+    <circle cx="904" cy="161" r="38" fill="#B6A4FF" fill-opacity="0.06"/>
+    <circle cx="904" cy="161" r="23" fill="#282543" stroke="#B6A4FF" stroke-width="2"/>
+    <path d="M904 149V173M892 161H916" stroke="#D7CDFF" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="904" cy="161" r="6" fill="#282543" stroke="#D7CDFF" stroke-width="2"/>
+
+    <rect x="1080" y="79" width="48" height="48" rx="12" fill="#24243F" stroke="#B6A4FF"/>
+    <path d="M1091 91H1117V115H1091V91ZM1091 98H1117" stroke="#CBBFFF" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M1097 105H1105M1097 110H1110" stroke="#CBBFFF" stroke-width="1.8" stroke-linecap="round"/>
+
+    <rect x="1080" y="195" width="48" height="48" rx="12" fill="#24243F" stroke="#B6A4FF"/>
+    <path d="M1091 207H1117V225H1102L1095 231V225H1091V207Z" stroke="#CBBFFF" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M1097 213H1111M1097 219H1106" stroke="#CBBFFF" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#B5C5DD" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" text-anchor="middle">
+    <text x="764" y="278">RETRIEVAL</text>
+    <text x="904" y="278">AGENTS</text>
+    <text x="1104" y="278">APPLICATIONS</text>
+  </g>
+</svg>
