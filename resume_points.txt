@@ -1,0 +1,12 @@
+Here are the highest-impact changes, in priority order, based on your current Default resume:
+
+1. **Check the IABG end date.** It reads "Aug 2026" but isn't marked as your current role. If you're still there, mark it current so it shows "Present." If you've left, confirm the end date.
+2. **Trim IABG from 11 bullets to about 6.** This role carries most of your experience, and the list is dense. Merge the two vLLM serving bullets, fold the Kubernetes/CI bullet into the platform bullet, and cut the media-verification bullet if it isn't relevant to the roles you want.
+3. **Vary the verbs.** "Developed" opens 3 of the 11 IABG bullets, and "Built" and "Developed" recur across roles. Stronger, varied verbs make the bullets read faster.
+4. **Shorten the summary to 2-3 sentences.** Lead with the title and specialty, then add two metrics. Cut "Experienced in designing, evaluating, and deploying scalable AI systems," which is generic.
+5. **Cut the skills list from 15 categories to about 8.** Remove filler such as Heroku, Vercel, Railway, "effective communication," "Skills" (listed as an agent framework), and "business intelligence." Keep the terms recruiters search for, like RAG, LangGraph, vLLM, and PyTorch.
+6. **Reduce projects from 8 to 4.** Agentic RAG and LangGraph Agents overlap with IABG's work, so they add little. Keep the projects that show something the jobs don't, such as the retrieval fine-tuning and the evaluation toolkit.
+7. **Reduce certifications from 7 to 3-4.** Keep the most relevant ones (Generative AI with LLMs, Deep Learning, NLP, AWS) and drop C++ and SQL. None of them have dates, so add those if you have them.
+8. **Fit the resume to one page once it's trimmed.** It currently runs past one page, and the 9.5pt base font is small. After the cuts above, I can turn on one-page fit.
+
+I can make any of these edits now. Which ones should I start with? My suggestion is items 1, 2, and 5 first, since they have the biggest effect on readability.

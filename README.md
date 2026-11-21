@@ -1,79 +1,55 @@
-![From language to working software — retrieval, agents, and applications.](assets/profile-header.svg)
+<p align="center">
+  <img src="assets/nehal-header.svg" width="85%" alt="Hello! I'm Nehal. I build with language models.">
+</p>
 
-# Nehal Vaghasiya
+I'm **Nehal Vaghasiya**, an **NLP Scientist · AI Engineer**.
 
-**NLP Scientist · AI & LLM Engineering**
+I build **AI agents, RAG systems, and language models**—from prototypes to evaluated, usable applications.
 
-I build AI applications that connect language models with documents, tools, and usable interfaces. My work spans document Q&A, multi-agent workflows, structured data extraction, and reusable Python tooling, with foundations in machine learning and NLP.
+[LinkedIn](https://www.linkedin.com/in/nehal-vaghasiya/) · [Hugging Face](https://huggingface.co/nehal-vaghasiya) · [Substack](https://substack.com/@nehalvaghasiya)
 
-**Interested in AI/LLM engineering and applied NLP roles.** [Let's connect on LinkedIn →](https://www.linkedin.com/in/nehalvaghasiya/)
+### About me
 
-**Start here:** [Agentic RAG](https://github.com/nehalvaghasiya/agentic-rag) for a full-stack AI application · [LangGraph Agents](https://github.com/nehalvaghasiya/langgraph-agents) for agent orchestration.
+- 🔎 **Grounded answers** — retrieval and citations you can inspect.
+- 🤝 **Reliable agent actions** — clear tool behavior and approval before changes.
+- 🧪 **Evaluation beyond a single score** — failure cases, answer quality, and latency.
+- ✍️ I write about agent orchestration, LLM behavior, and what I learn from experiments.
 
-## Selected work
+### Languages & tools
 
-### 01 / Agentic RAG
+<p>
+  <code><img src="assets/icons/python.svg" height="24" alt="Python" title="Python"></code>&nbsp;
+  <code><img src="assets/icons/pytorch.svg" height="24" alt="PyTorch" title="PyTorch"></code>&nbsp;
+  <code><img src="assets/icons/huggingface.svg" height="24" alt="Hugging Face" title="Hugging Face"></code>&nbsp;
+  <code><img src="assets/icons/fastapi.svg" height="24" alt="FastAPI" title="FastAPI"></code>&nbsp;
+  <code><img src="assets/icons/react.svg" height="24" alt="React" title="React"></code>&nbsp;
+  <code><img src="assets/icons/docker.svg" height="24" alt="Docker" title="Docker"></code>&nbsp;
+  <code><img src="assets/icons/modelcontextprotocol.svg" height="24" alt="Model Context Protocol" title="Model Context Protocol"></code>
+</p>
 
-**Ask questions across a document collection and inspect the sources behind the answer.**
+### GitHub stats
 
-Built a FastAPI and React application that turns uploaded PDFs and text files into project-specific knowledge bases, with a chat interface for exploring their contents.
+<p>
+  <a href="https://github.com/nehalvaghasiya">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=nehalvaghasiya&amp;show_icons=true&amp;hide_rank=true&amp;hide=contribs&amp;hide_border=true&amp;disable_animations=true&amp;card_width=400&amp;custom_title=Nehal%27s%20GitHub%20stats&amp;theme=github_dark">
+      <img src="https://github-stats-extended.vercel.app/api?username=nehalvaghasiya&amp;show_icons=true&amp;hide_rank=true&amp;hide=contribs&amp;hide_border=true&amp;disable_animations=true&amp;card_width=400&amp;custom_title=Nehal%27s%20GitHub%20stats&amp;theme=buefy" width="400" alt="Nehal's public GitHub activity: stars, commits, pull requests, and issues">
+    </picture>
+  </a>
+  <a href="https://github.com/nehalvaghasiya?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=nehalvaghasiya&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;disable_animations=true&amp;card_width=350&amp;theme=github_dark">
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=nehalvaghasiya&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;disable_animations=true&amp;card_width=350&amp;theme=buefy" width="350" alt="Languages used in Nehal's public repositories">
+    </picture>
+  </a>
+</p>
 
-- Implemented document ingestion, chunking, embeddings, and persisted vector search, followed by query rewriting and relevance grading.
-- Streamed workflow progress, source snippets, and answer tokens through Server-Sent Events (SSE), making the retrieval process visible in the UI.
-- Added request-level model configuration and an excerpt-based fallback when an LLM is unavailable.
+<sub>Public GitHub activity · Language percentages reflect repository contents.</sub>
 
-`Python` `FastAPI` `React` `LangChain` `Embeddings` `SSE`
+### Writing & experiments
 
-[Explore the project →](https://github.com/nehalvaghasiya/agentic-rag) · [Streaming implementation](https://github.com/nehalvaghasiya/agentic-rag/blob/main/backend/querying/stream.py) · [React interface](https://github.com/nehalvaghasiya/agentic-rag/tree/main/frontend/src)
+- **Multi-agent systems with LangGraph** — [Article](https://nehalvaghasiya.substack.com/p/orchestrating-multi-agent-ai-systems) · [Code](https://github.com/nehalvaghasiya/langgraph-agents)
+- **LLM sampling in plain English** — [Temperature, top-p, and top-k](https://nehalvaghasiya.substack.com/p/temperature-top-p-top-k-in-plain)
+- **TinySQL: base model vs. LoRA** — [Live demo](https://huggingface.co/spaces/nehal-vaghasiya/tinysql-lora-demo) · [Code](https://github.com/nehalvaghasiya/transformers-from-scratch/tree/main/finetuning) · [Results](https://github.com/nehalvaghasiya/transformers-from-scratch/blob/main/finetuning/docs/EXPERIMENT_REPORT.md)
 
-### 02 / LangGraph Agents
-
-**Compose specialist agents into research, writing, and document workflows.**
-
-Built a modular agent framework with a shared agent base, reusable tools, and supervisors that route work between agents.
-
-- Implemented graph-based tool-calling loops and teams for research and paper writing, with examples for search, RAG, summarization, and planning.
-- Returned tool errors to the agent as messages so the workflow can respond to failed actions.
-- Included tests for agent behavior and supervisor routing, with a GitHub Actions workflow configured for Python 3.11–3.13.
-
-`Python` `LangGraph` `LangChain` `pytest` `GitHub Actions`
-
-[Explore the project →](https://github.com/nehalvaghasiya/langgraph-agents) · [Agent implementation](https://github.com/nehalvaghasiya/langgraph-agents/blob/main/src/core/agents/base.py) · [Examples](https://github.com/nehalvaghasiya/langgraph-agents/tree/main/examples) · [Tests](https://github.com/nehalvaghasiya/langgraph-agents/tree/main/tests/core)
-
-### 03 / Interview Bot
-
-**Practice an interview tailored to a job description.**
-
-Built a Streamlit application that generates role-specific questions, collects answers in a conversational interface, and provides AI-generated feedback.
-
-- Managed questions, answers, and interview progress through session state.
-- Made the job description and prompts configurable, with provider settings for OpenAI or local models through Ollama.
-
-`Python` `Streamlit` `OpenAI API` `Ollama`
-
-[Explore the project →](https://github.com/nehalvaghasiya/interview-bot) · [Interview workflow](https://github.com/nehalvaghasiya/interview-bot/blob/master/chatbot.py) · [Provider configuration](https://github.com/nehalvaghasiya/interview-bot/blob/master/utils.py)
-
-## Tools and foundations
-
-| Project | What I built |
-| --- | --- |
-| [**LLM Client Toolkit**](https://github.com/nehalvaghasiya/llm-client-toolkit) | A shared sync/async LLM client interface, JSON and Pydantic parsers, retries on invalid output, and adapters for LangChain, LlamaIndex, and PydanticAI. [Inspect the retry logic →](https://github.com/nehalvaghasiya/llm-client-toolkit/blob/main/llm_client/retry.py) |
-| [**Web Scraper Agent**](https://github.com/nehalvaghasiya/web-scraper-agent) | A schema-driven extraction workflow using HTTPX, BeautifulSoup, PydanticAI, and Groq, with examples for products, blog posts, and job listings. [Inspect the extractor →](https://github.com/nehalvaghasiya/web-scraper-agent/blob/main/scraper.py) |
-| [**ML/NLP Projects**](https://github.com/nehalvaghasiya/ml-nlp-projects) | A collection of learning and personal projects in classification, regression, sentiment analysis, spam detection, translation, and text summarization. [Browse NLP work →](https://github.com/nehalvaghasiya/ml-nlp-projects/tree/main/Natural%20Language%20Processing) |
-
-Also built [**RecipeBot**](https://github.com/nehalvaghasiya/RecipeBot), a Streamlit chatbot that collects food preferences and generates recipe suggestions.
-
-## Skills in practice
-
-| Area | Technologies and techniques | See them in use |
-| --- | --- | --- |
-| Retrieval & agents | LangGraph, LangChain, embeddings, vector search, tool calling | [Agentic RAG](https://github.com/nehalvaghasiya/agentic-rag) · [LangGraph Agents](https://github.com/nehalvaghasiya/langgraph-agents) |
-| Applications & APIs | Python, FastAPI, React, Streamlit, SSE | [Agentic RAG](https://github.com/nehalvaghasiya/agentic-rag) · [Interview Bot](https://github.com/nehalvaghasiya/interview-bot) |
-| LLM integration | Sync/async clients, Pydantic, structured outputs, parser-aware retries | [LLM Client Toolkit](https://github.com/nehalvaghasiya/llm-client-toolkit) · [Web Scraper Agent](https://github.com/nehalvaghasiya/web-scraper-agent) |
-| ML & NLP | PyTorch, classification, sequence models, text processing | [ML/NLP Projects](https://github.com/nehalvaghasiya/ml-nlp-projects) |
-
----
-
-**Building a team around AI applications, retrieval, or agents?** I'd like to hear about the problems you're solving.
-
-[Connect on LinkedIn →](https://www.linkedin.com/in/nehalvaghasiya/) · [Browse my repositories](https://github.com/nehalvaghasiya?tab=repositories)
+*Explore my projects in the pinned repositories below.*
