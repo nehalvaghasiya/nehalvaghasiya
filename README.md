@@ -39,8 +39,8 @@ I build **production-ready AI services** across **agentic AI, enterprise RAG, AI
   </a>
   <a href="https://github.com/nehalvaghasiya?tab=repositories">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=nehalvaghasiya&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;disable_animations=true&amp;card_width=350&amp;theme=github_dark">
-      <img height="168" src="https://github-stats-extended.vercel.app/api/top-langs/?username=nehalvaghasiya&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;disable_animations=true&amp;card_width=350&amp;theme=default" alt="Languages used in Nehal's public GitHub repositories">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=nehalvaghasiya&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;disable_animations=true&amp;card_width=320&amp;theme=github_dark">
+      <img width="320" src="https://github-stats-extended.vercel.app/api/top-langs/?username=nehalvaghasiya&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;disable_animations=true&amp;card_width=320&amp;theme=default" alt="Languages across public GitHub repositories">
     </picture>
   </a>
 </p><p align="center"><sub><a href="https://github.com/nehalvaghasiya?tab=repositories">Explore repositories</a> 
