@@ -12,7 +12,7 @@ I build **production-ready AI services** across **agentic AI, enterprise RAG, AI
 
 | Project | What it does | Explore |
 | :--- | :--- | :--- |
-| **[Agentic RAG](https://github.com/nehalvaghasiya/agentic-rag)** | Cited document Q&A with agentic retrieval and streaming. | [Video demo](https://github.com/nehalvaghasiya/agentic-rag#live-demo) |
+| **[Agentic RAG](https://github.com/nehalvaghasiya/agentic-rag)** | Cited document Q&A with agentic retrieval and streaming. | [Video demo](https://github.com/nehalvaghasiya/agentic-rag#live-demo) · [Article](https://substack.com/home/post/p-226450500) |
 | **[MCP Workspace AI](https://github.com/nehalvaghasiya/mcp-workspace-ai)** | Google Workspace reports with approval-gated agent actions. | [Video demo](https://github.com/nehalvaghasiya/mcp-workspace-ai#live-demo) |
 | **[LangGraph Agents](https://github.com/nehalvaghasiya/langgraph-agents)** | Supervisor agents for research, search, and document workflows. | [Article](https://nehalvaghasiya.substack.com/p/orchestrating-multi-agent-ai-systems) |
 | **[Domain-Adaptive Retrieval](https://github.com/nehalvaghasiya/domain-adaptive-retrieval)** | Legal embeddings; character Recall@5 **39.8% → 76.8%**. | [Results](https://github.com/nehalvaghasiya/domain-adaptive-retrieval/blob/main/docs/results/legal.md) |
